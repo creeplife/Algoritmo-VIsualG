@@ -1,0 +1,33 @@
+Algoritmo "Ex_03"
+
+ 
+
+ 
+
+Var
+   X, Y: real
+
+ 
+
+ 
+
+inicio
+   escreva("Primeiro número ")
+   leia(X)
+   escreva("Segundo número ")
+   leia(Y)
+
+ 
+
+ 
+
+   se (X > Y) entao
+      escreva("O maior número é: ", X)
+   senão
+       se (X = Y) então
+          escreva("Números iguais")
+       senão
+          escreva("O maior número é: ", Y)
+       fimse
+   fimse
+Fimalgoritmo
