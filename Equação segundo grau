@@ -1,0 +1,33 @@
+Algoritmo "Eq_2_grau"
+
+Var
+A,B,C,Delta,R1,R2: real
+
+
+Inicio
+  escreva ("A ")
+  leia (A)
+  escreva ("B ")
+  leia (B)
+  escreva ("C ")
+  leia (C)
+  
+  Delta <- b^2 - 4 * a * c
+
+   se(Delta < 0) entao
+      escreval("DELTA = ", Delta)
+      escreva("Não existem raízes reais")
+   senao
+      se(Delta = 0) entao
+         R1 <- (-b /(2*a))
+         escreval("DELTA = ", Delta)
+         escreval("x1 = x2 = ", R1:6:2)
+      senao
+         R1 <- (-b - raizq(Delta)) / (2 * a)
+         R2 <- (-b + raizq(Delta)) / (2 * a)
+         escreval("x1 = ", R1:6:2)
+         escreval("x2 = ", R2:6:2)
+      fimse
+   fimse
+
+Fimalgoritmo
